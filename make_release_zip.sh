@@ -8,9 +8,9 @@ FOLDER=DataRefTool_${DATE}
 mkdir -p ${FOLDER}
 cd ${FOLDER}
 
-wget https://datareftool-binaries.s3.amazonaws.com/$REVISION/mac.xpl
+/*wget https://datareftool-binaries.s3.amazonaws.com/$REVISION/mac.xpl
 wget https://datareftool-binaries.s3.amazonaws.com/$REVISION/lin.xpl
-wget https://datareftool-binaries.s3.amazonaws.com/$REVISION/win.xpl
+wget https://datareftool-binaries.s3.amazonaws.com/$REVISION/win.xpl*/
 cp ../LICENSE .
 cd ..
 
